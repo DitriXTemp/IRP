@@ -10,7 +10,9 @@ Function Strings(Lang) Export
 	Strings.Insert("Eq_005", NStr("en = 'Error. Scanner not connected.'", Lang));
 	Strings.Insert("Eq_006", NStr("en = 'Installed on current PC.'", Lang));
 	
-	Strings.Insert("EqError_001", NStr("en = 'The device is connected. The device must be disabled before the operation.'", Lang));
+	Strings.Insert("EqError_001", NStr("en = 'The device is connected. The | device must be disab|
+			|led b|e
+			|fore the operation.'", Lang));
 
 	Strings.Insert("EqError_002", NStr("en = 'The device driver could not be downloaded.
 											  |Check that the driver is correctly installed and registered in the system.'", Lang));
