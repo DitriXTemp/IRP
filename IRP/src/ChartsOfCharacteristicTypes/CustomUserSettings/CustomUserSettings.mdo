@@ -10,7 +10,7 @@
   </producedTypes>
   <name>CustomUserSettings</name>
   <synonym>
-    <key>en</key>
+    <key>ru</key>
     <value>Custom user settings</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
