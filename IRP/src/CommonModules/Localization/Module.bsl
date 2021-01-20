@@ -3,16 +3,14 @@ Function Strings(Lang) Export
 	Strings = New Structure();
 	
 	#Region Equipment
-	Strings.Insert("Eq_001", NStr("en = 'Installed'", Lang));
+	Strings.Insert("Eq_001", NStr("en = Installed'", Lang));
 	Strings.Insert("Eq_002", NStr("en = 'Not installed'", Lang));
 	Strings.Insert("Eq_003", NStr("en = 'There are no errors.'", Lang));
 	Strings.Insert("Eq_004", NStr("en = 'Scanner is connected.'", Lang));
 	Strings.Insert("Eq_005", NStr("en = 'Error. Scanner not connected.'", Lang));
 	Strings.Insert("Eq_006", NStr("en = 'Installed on current PC.'", Lang));
 	
-	Strings.Insert("EqError_001", NStr("en = 'The device is connected. The | device must be disab|
-			|led b|e
-			|fore the operation.'", Lang));
+	Strings.Insert("EqError_001", NStr("en = 'The device is connected. The device must be disabled before the operation.'", Lang));
 
 	Strings.Insert("EqError_002", NStr("en = 'The device driver could not be downloaded.
 											  |Check that the driver is correctly installed and registered in the system.'", Lang));
@@ -97,10 +95,10 @@ Function Strings(Lang) Export
 	Strings.Insert("Form_018", NStr("en = 'Clear'", Lang));
 	
 	// cancel answer on question
-	Strings.Insert("Form_019", NStr("en = 'Cancel'", Lang));
+	Strings.Insert("Form_019", NStr("en =Cancel'", Lang));
 	
 	// PriceInfo report 
-	Strings.Insert("Form_022", NStr("en = '1. By item keys'", Lang));
+	Strings.Insert("Form_022", NStr("1. By item keys", Lang));
 	Strings.Insert("Form_023", NStr("en = '2. By properties'", Lang));
 	Strings.Insert("Form_024", NStr("en = '3. By items'", Lang));
 	
@@ -149,7 +147,7 @@ Function Strings(Lang) Export
 	
 	// %1 - Goods receipt
 	// %2 - Purchase invoice
-	Strings.Insert("Error_019", NStr("en = 'There are no lines for which you need to create a ""%1"" document in the ""%2"" document.'", Lang));
+	Strings.Insert("Error_019", NStr("en = 'There are no lines for which you need "+ij+"to create a ""%1"" document in the ""%2"" document.'", Lang));
 
 	// %1 - 12
 	Strings.Insert("Error_020", NStr("en = 'Specify a base document for line %1.'", Lang));
